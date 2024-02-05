@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #EBD9B4;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.searchBox {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#heading {
+    font-size: 25px;
+    padding: 2px;
+    margin-bottom: 10px;
+    margin-right: 130px;
+    font-weight: 600;
+    background: #9DBC98;
+}
+
+.searchBar {
+    font-size: 15px;
+    border-radius: 7px;
+    border: 2px solid;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    background-color: white;
+    height: 50px;
+    width: 350px;
+    display: flex;
+    font-weight: 600;
+}
+.searchBar:focus {
+    background-color: aliceblue;
+}
+
+.lyrics {
+    font-size: 18px;
+    border-radius: 5px;
+    width: 90%;
+    padding: 10px;
+    border:1px solid black;
+    margin-bottom: 100px;
+    background: #F1C27B;
+    box-shadow:  5px 10px #969595;
+}
+.lyrics p {
+    background: #F1C27B;
+    color: black;
+}
+
+.searchConatiner{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background: #9DBC98;
+}
+
+#search{
+    height: 50px;
+    margin-left: 10px;
+    width: 120px;
+    font-size: 20px;
+    background: #638889;
+    color: white;
+    border: 2px solid #3A4D39;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-weight: 600;
+
+}
+#search:hover{
+    background-color: #739072;
+}
+
+.searchArea{
+    margin-bottom: 50px;
+    border: 1px solid black;
+    padding-top:20px;
+    padding-left: 15px;
+    border-radius:15px;
+    color: white;
+    background: #9DBC98;
+    box-shadow: 5px 10px #969595;
+}
+
+.mainHeading{
+    margin-bottom: 8px;
+    color:black;
+}
+
+.underline {
+    height: 0.25rem;
+    width: 13rem;
+    background: #638889;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    border-radius: 50px;
+
+  }
+
+@media screen and (max-width: 600px) {
+
+#heading{
+    font-size: 15px;
+}
+
+.searchBar{
+    width: 200px;
+}
+
+.lyrics{
+    font-size: 20px;
+    width: 70%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.searchArea{
+ margin-bottom: 10px;
+ width: 80%;
+ align-items: center;
+ justify-content: center;
+}
+
+#search{
+    height: 30px;
+    margin-left: 10px;
+    width: 80px;
+    font-size: 12px;
+    padding: 5px;
+    border-radius: 40px;
+    font-weight: 500;
+}
+
+
+.searchConatiner{
+    width: 200px;
+}
+}
